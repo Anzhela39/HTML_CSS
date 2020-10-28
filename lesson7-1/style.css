@@ -22,7 +22,7 @@
 }
 
 .some-button:disabled {
-    border: 3px dashed gray;
+    border: 2px dashed gray;
 }
 
 .search:focus {
