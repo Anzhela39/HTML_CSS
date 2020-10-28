@@ -16,7 +16,7 @@
     font-size: 24px;
 }
 
-button:disabled {
+button[disabled] {
     border: 3px dashed gray;
 }
 
