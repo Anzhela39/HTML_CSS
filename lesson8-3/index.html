@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .rectangle {
+            border-radius: 16px;
+            width: 100px;
+            height: 50px;
+            margin: 50px;
+            background-color: forestgreen;
+        }
+        
+        .oval {
+            border-radius: 50px;
+            width: 100px;
+            height: 50px;
+            margin: 50px;
+            background-color: darkmagenta;
+        }
+        
+        .circle {
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            background-color: aquamarine;
+        }
+        
+        .triangle {
+            width: 100px;
+            height: 50px;
+            margin: 50px;
+            border: 25px solid transparent;
+            background-color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="rectangle"></div>
+    <div class="oval"></div>
+    <div class="circle"></div>
+    <div class="triangle"></div>
+
+</body>
+
+</html>
+
+
+
+<!--Нормализируйте стили на странице через Normalize.css
+Добавьте на страницу 4 <div> и стилизируйте их так, чтобы получились фигуры, как на картинке. Цвета и размеры вы найдете на картинке картинке
+Подсказки:
+Радиус углов прямоугольника 16px
+Чтобы получить овал, начните с прямоугольника 100 x 50 px
+Диаметр круга 100px
+Треугольник имеет 100px у верхнего основания. Высота треугольника 50px
