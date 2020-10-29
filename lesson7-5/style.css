@@ -1,0 +1,66 @@
+body {
+    background-color: #bdc3c7;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+
+li {
+    color: blue;
+}
+
+p {
+    background-color: yellow;
+}
+
+input {
+    border: 3px solid red;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid blue;
+}
+
+div>p {
+    font-size: 25px;
+}
+
+input[type="text"] {
+    background-color: grey;
+}
+
+body>div:nth-of-type(3)>p {
+    background-color: yellow;
+}
+
+body>div:nth-of-type(3)>p:last-child {
+    border: 5px solid white;
+}
+
+div p>em {
+    color: white;
+}
+
+
+/*Придайте элементу <body> фон # bdc3c7
+Сделать текст из элемента <h1> № 9b59b6
+Сделать текст всех элементов <h2> оранжевым
+Сделайте все элементы <li> синими
+Сделайте желтый фон каждого абзаца желтым
+Сделайте все поля ввода сплошной красной рамкой 3 пикселя
+Дайте всему классу "привет" белый фон
+Задайте элементу с идентификатором special синюю границу размером 2 пикселя.
+Сделайте все <p>, вложенные внутрь шрифта divs 25px
+Только поля ввода с типом "текст" должны иметь серый фон.
+Дайте обоим <p> внутри третьего <div> желтый фон
+Придайте 2-му <p> внутри 3-го <div> белую рамку 5 пикселей.
+Сделайте <em> в третьем элементе <div> белым и шрифтом 20px (font-size: 20px)
