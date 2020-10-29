@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        * {
+            background-color: antiquewhite;
+        }
+        
+        .rectangle {
+            width: 512px;
+            height: 128px;
+            padding: 16px;
+            margin: 16px;
+            border: 8px solid black;
+        }
+        
+        .rectangle1 {
+            background-color: aquamarine;
+            box-sizing: content-box;
+        }
+        
+        .rectangle2 {
+            background-color: azure;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="rectangle1 rectangle">Content Box Sizing</div>
+    <div class="rectangle2 rectangle">Border Box Sizing</div>
+
+</body>
+
+</html>
+
+
+
+
+<!--Основные требования:
+Нормализируйте стили на странице через Normalize.css
+Задайте телу документа фон цвета antiquewhite
+Добавьте в <body> <div> у которого box-sizing: content-box;. Текст внутри - 'Content Box Sizing'
+Задайте ему черную solid рамку 8px, внешний отступ 16px и внутренний отступ 16px, ширину 512px, высоту 128px
+Задайте ему фон цвета aquamarine
+Добавьте ниже еще один <div> с текстом 'Border Box Sizing'. И присвойте ему box-sizing: border-box;
+Задайте второму диву те же значения height, width, padding, margin, а так же черную solid рамку 8px
+Задайте ему фон цвета azure
+Используйте CSS классы и выносите повторяющийся код в отдельный класс.--!
