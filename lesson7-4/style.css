@@ -1,0 +1,31 @@
+li [type="checkbox"]:checked {
+    margin-left: 16px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover {
+    background-color: blue;
+}
+
+a:link {
+    color: rgb(red, green, blue);
+}
+
+a:visited {
+    color: grey;
+}
+
+
+/*Сделайте так, чтобы у всех флажков "отмечены" левое поле 50 пикселей (margin-left: 50 пикселей)
+Сделайте элементы <label> заглавными буквами без изменения HTML (обязательно посмотрите этот)
+Сделайте первую букву элемента с идентификатором 'special' зеленым и размером шрифта 100 пикселей (font-size: 100px)
+Сделайте изменение цвета элемента <h1> на синий при наведении курсора
+Сделайте посещенный элемент <a> серым*/
