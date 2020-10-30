@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        div {
+            box-sizing: border-box;
+            border: 2px solid black;
+            padding: 50px;
+        }
+        
+        .box1 {
+            background-color: blue;
+            margin: 50px;
+        }
+        
+        .box2 {
+            background-color: yellow;
+        }
+        
+        .box3 {
+            background-color: green;
+        }
+        
+        .box4 {
+            background-color: pink;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box2">
+            <div class="box3">
+                <div class="box4"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+<!-- box-sizing: border-box; display: grid;max-width: 100%;
+            max-height: 25%;
+    Необходимо создать веб страницу по простому макету, используйте padding и margin
+     Цвета - blue, yellow, green, pink Основные требования:
+Нормализуйте стили
+Границы прямоугольников 2px solid black
+Используйте тег <div> для прямоугольников
