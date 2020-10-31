@@ -9,11 +9,11 @@
     margin: 0;
 }
 
-.nav-item {
+.nav-list>li {
     line-height: 40px;
-    text-align: center;
-    display: inline-block;
     color: white;
+    list-style: none;
+    float: left;
     margin-left: 16px;
 }
 
