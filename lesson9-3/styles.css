@@ -1,0 +1,41 @@
+.header,
+.footer {
+    height: 50px;
+}
+
+.header {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: green;
+    clear: both;
+}
+
+.content {
+    width: 80%;
+    float: left;
+    background-color: pink;
+}
+
+.sidebar {
+    width: 20%;
+    float: right;
+    background-color: gray;
+}
+
+.sidebar,
+.content {
+    height: 500px;
+}
+
+
+/*<!--Лейаут с помощью float
+Начальный HTML код находится в редакторе ниже. HTML должен оставаться неизменным. 
+Для добавления стилей используйте styles.css Результат должен быть как на картинке
+
+Основные требования:
+Высота хедера и футера должна быть 50px. Цвет - yellow и green соответственно.
+<main> cтраницы должен занимать 80% по ширине, .sidebar - остальные 20%. 
+    Цвета - pink и grey соответственно. Высота обоих - 500px
+Опишите класс .footer, чтобы задать правильное расположение футеру-->
