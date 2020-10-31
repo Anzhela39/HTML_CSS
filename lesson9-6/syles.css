@@ -1,14 +1,16 @@
 .header,
 .nav {
     background-color: darkturquoise;
-    height: 40px;
+    line-height: 40px;
     box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .nav-list>li {
-    position: relative;
     line-height: 40px;
-    text-align: center;
     display: inline-block;
     margin: 0 0 0 16px;
     color: white;
@@ -27,6 +29,7 @@
     top: 50%;
     left: 50%;
     margin: -100px 0 0 -100px;
+    z-index: 1;
 }
 
 .ear {
