@@ -2,6 +2,7 @@
 .nav {
     background-color: darkturquoise;
     height: 40px;
+    box-sizing: border-box;
 }
 
 .nav-list>li {
