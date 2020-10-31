@@ -1,17 +1,18 @@
 .header,
 .nav {
-    background-color: darkturquoise;
-    line-height: 40px;
     box-sizing: border-box;
+    background-color: darkturquoise;
+    height: 40px;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 2;
 }
 
+.navigation,
 .nav-list>li {
-    line-height: 40px;
     display: inline-block;
+    line-height: 50%;
     margin: 0 0 0 16px;
     color: white;
 }
