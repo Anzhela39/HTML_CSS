@@ -1,20 +1,19 @@
 .header,
-.nav {
+.navigation>ul {
     box-sizing: border-box;
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
     position: fixed;
-    top: 0;
     z-index: 2;
+    margin: 0;
 }
 
-.navigation,
-.nav-list>li {
+.nav-item {
+    line-height: 40px;
     display: inline-block;
-    line-height: 50%;
-    margin: 0 0 0 16px;
     color: white;
+    margin-left: 16px;
 }
 
 .content {
