@@ -1,72 +1,74 @@
-body {
-    box-sizing: border-box;
-}
-
-.header {
-    height: 40px;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-}
-
-.footer {
-    display: flex;
-    height: 40px;
-    background-color: green;
-}
-
-.navigation {
-    margin: 0;
-    display: flex;
-    list-style-type: none;
-}
-
-.navigation_aitem {
-    margin-left: 16px;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-.content {
-    display: flex;
-    flex-grow: 1;
-}
-
-.footer_text {
-    margin: auto;
-}
-
-.daschboard {
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.news {
-    width: 200px;
-    background-color: grey;
-}
-
-.p_news {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 16px 0;
-}
-
-.news_list {
-    padding: 0;
-    margin: 0px;
-}
-
-.news_aitem {
-    height: 40px;
-    list-style-type: none;
-    margin-left: 16px;
-}
+    body {
+        box-sizing: border-box;
+    }
+    
+    .header {
+        height: 40px;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer {
+        display: flex;
+        height: 40px;
+        background-color: green;
+    }
+    
+    .navigation {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .navigation_aitem {
+        margin-left: 16px;
+    }
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .content {
+        display: flex;
+        flex-grow: 1;
+    }
+    
+    .footer_text {
+        margin: auto;
+    }
+    
+    .daschboard {
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .news {
+        width: 200px;
+        background-color: grey;
+    }
+    
+    .p_news {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px 0;
+    }
+    
+    .news_list {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .news_aitem {
+        height: 40px;
+        margin-left: 16px;
+        display: flex;
+        list-style-type: none;
+    }
