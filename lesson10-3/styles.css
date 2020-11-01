@@ -22,7 +22,7 @@ body {
 }
 
 .navigation_aitem {
-    margin-right: 10px;
+    margin-left: 16px;
 }
 
 .page {
@@ -60,10 +60,13 @@ body {
     margin: 16px 0;
 }
 
-.news_aitem {
-    height: 40px;
+.news_list {
+    padding: 0;
+    margin: 0px;
 }
 
-.news_list {
+.news_aitem {
+    height: 40px;
+    list-style-type: none;
     margin-left: 16px;
 }
