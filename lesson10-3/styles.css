@@ -64,11 +64,13 @@
     .news_list {
         margin: 0;
         padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        list-style-type: none;
     }
     
     .news_aitem {
         height: 40px;
         margin-left: 16px;
-        display: flex;
-        list-style-type: none;
     }
