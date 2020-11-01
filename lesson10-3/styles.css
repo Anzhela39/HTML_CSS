@@ -63,11 +63,11 @@
     
     .news_list {
         margin: 0;
-        padding-left: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        align-items: flex-start;
+        justify-content: center;
+        align-content: flex-start;
         list-style-type: none;
     }
     
