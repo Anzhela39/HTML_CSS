@@ -16,8 +16,12 @@
             
             .menu-button {}
             
-            .dropdown:hover .menu-list {
+            .dropdown:hover {
+                background-color: darkgreen;
                 opacity: 1.0;
+            }
+            
+            .dropdown:hover .menu-list {
                 display: block;
             }
             
@@ -32,8 +36,6 @@
                 box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
                 min-width: 120px;
                 z-index: 1;
-                top: 45px;
-                left: 0;
             }
             
             .menu-item {
