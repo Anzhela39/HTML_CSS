@@ -14,10 +14,13 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
+    min-width: 300px;
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .article-list {
-    min-width: 300px;
     display: flex;
     flex-wrap: wrap;
 }
