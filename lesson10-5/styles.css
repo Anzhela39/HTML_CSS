@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    display: flexbox;
 }
 
 header {
@@ -20,14 +21,14 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    flex-shrink: 1;
+    flex-shrink: 3;
     flex-grow: 1;
-    min-width: 300px;
-    height: 100%;
+    flex-basis: 300px;
+    height: 300px;
 }
 
 
-/*Тренируемся использовать flexbox
+/*display: inline-block;Тренируемся использовать flexbox
 Готовый HTML находится в файле редакторе ниже. 
 Его редактировать не нужно. Для добавления стилей используй styles.css
 
