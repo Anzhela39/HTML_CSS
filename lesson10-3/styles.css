@@ -62,16 +62,16 @@
     }
     
     .news_list {
+        list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+    
+    .news_aitem {
+        min-height: 40px;
+        margin-left: 16px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: flex-start;
-        list-style-type: none;
-    }
-    
-    .news_aitem {
-        height: 40px;
-        margin-left: 16px;
     }
