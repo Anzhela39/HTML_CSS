@@ -1,0 +1,8 @@
+{
+    "trailingComma": "all",
+    "printtWidh": 100,
+    "semi": true,
+    "singleQuote": true,
+    "backketSpacing": true,
+    "arrowParens": "avoid"
+}
