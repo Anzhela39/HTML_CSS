@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    display: inline-block;
+    margin: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.text>div {
+    border-bottom: 1px #000 dotted;
+}
+
+.tooltip {
+    display: none;
+    background-color: grey;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+    z-index: 2;
+}
+
+.text:hover .tooltip {
+    display: block;
+}
