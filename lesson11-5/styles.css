@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    width: 100vh;
+    flex-wrap: wrap;
+}
+
+.thumb {
+    flex-shrink: 0;
+    margin: 8px;
+    overflow-x: auto;
+    /*min-width: 100vh;
+    min-height: 100vh;*/
+}
+
+.gallery:hover {
+    cursor: all-scroll;
+}
