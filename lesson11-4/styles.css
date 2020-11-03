@@ -4,13 +4,13 @@
 
 .text {
     display: inline-block;
-    margin: 16px;
     position: relative;
     z-index: 1;
 }
 
 .text>div {
     border-bottom: 1px #000 dotted;
+    margin: 16px;
 }
 
 .tooltip {
