@@ -21,15 +21,18 @@
         
         .text {
             margin: 16px;
-            padding: 16px;
             height: 150px;
             width: 300px;
             background-color: white;
+            z-index: 1;
         }
         
         .text_div {
             border-bottom: 1px dotted #000;
             position: relative;
+            top: 16px;
+            left: 16px;
+            z-index: 2;
         }
         
         .tooltip {
@@ -42,7 +45,7 @@
             left: 0px;
             bottom: -40px;
             width: 100%;
-            z-index: 1;
+            z-index: 3;
         }
         
         .text_div:hover .tooltip {
