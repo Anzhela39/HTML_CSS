@@ -12,7 +12,7 @@
         
         body {
             background-color: #000;
-            height: 100vh;
+            height: 50vh;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -20,6 +20,7 @@
         }
         
         .text {
+            visibility: visible;
             margin: 16px;
             padding: 16px;
             height: 150px;
@@ -33,6 +34,7 @@
         }
         
         .tooltip {
+            display: none;
             background-color: grey;
             border-radius: 4px;
             color: white;
@@ -42,6 +44,10 @@
             bottom: -40px;
             width: 100%;
             z-index: 1;
+        }
+        
+        .text_div:hover .tooltip {
+            display: block;
         }
     </style>
 </head>
