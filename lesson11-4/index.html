@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #000;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text {
+            margin: 16px;
+            padding: 16px;
+            height: 150px;
+            width: 300px;
+            background-color: white;
+        }
+        
+        .text_div {
+            border-bottom: 1px dotted #000;
+            position: relative;
+        }
+        
+        .tooltip {
+            background-color: grey;
+            border-radius: 4px;
+            color: white;
+            padding: 8px;
+            position: absolute;
+            left: 0px;
+            bottom: -40px;
+            width: 100%;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <span class="text_div">Hover over me<span class="tooltip">I'm a tooltip</span></span>
+
+    </div>
+</body>
+
+</html>
+
+<!--Tooltip
+Создайте тултип, который будет появляться при 
+наведении курсора мыши на текст.
+
+Результат должен быть как на картинке картинке
+
+Основные требования:
+Стартовый HTML в редакторе ниже
+Нормализируйте CSS
+Тултип сделайте тегом <span> c классом tooltip а основной текст тегом <div> c классом text
+Сделайте внешний отступ для <div> 16px. Добавьте нижнее подчеркивание 1px dotted black.
+     Обратите внимание на ширину текста.
+Тултип должен иметь grey фон, белый цвет текста, 4px радиус границы, внутренние отступы 8px,
+ отступать вниз от текста Hover over me (bottom: -40px;)
+-->
