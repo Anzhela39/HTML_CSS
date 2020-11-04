@@ -1,0 +1,26 @@
+html {
+    margin: 32px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    word-spacing: 20px;
+    text-transform: uppercase;
+    line-height: 28px;
+    text-align: center;
+}
+
+.technology {
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 80%;
+}
+
+a[href^="https"] {
+    text-decoration: none;
+}
+
+.translation {
+    color: gray;
+}
