@@ -1,7 +1,10 @@
 div>div {
     border: 1px dotted grey;
     margin: 16px;
-    display: inline-block;
+}
+
+.gallery {
+    display: flex;
 }
 
 .image {
@@ -13,9 +16,7 @@ div>div {
 }
 
 
-/** {
-    box-sizing: border-box;
+/**{box-sizing: border-box; 
+    display: inline-block;
 }
-.gallery {
-   display: flex;
-}*/
+*/
