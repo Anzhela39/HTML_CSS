@@ -9,7 +9,6 @@ div>div {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .image {
