@@ -5,10 +5,11 @@
 div>div {
     border: 1px dotted grey;
     margin: 16px;
+    display: inline-block;
 }
 
 .gallery {
-    display: flex;
+    /*display: flex;*/
 }
 
 .image {
