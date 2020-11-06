@@ -1,8 +1,7 @@
-* {
-    box-sizing: border-box;
-}
+/** {
+    box-sizing: border-box;*/
 
-.image {
+.main-image {
     display: block;
     margin: 50px auto;
     max-width: 100%;
@@ -15,6 +14,7 @@
 
 .card {
     margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
 .caption {
@@ -24,15 +24,12 @@
 
 .opacity-filter {
     filter: opacity(50%);
-    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
 .blur-filter {
     filter: blur(4px);
-    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
 .invert-filter {
     filter: invert(100%);
-    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
