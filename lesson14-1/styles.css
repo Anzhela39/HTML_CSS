@@ -2,14 +2,12 @@
         font-size: 18px;
         /*    box-sizing: border-box;*/
     }
-    
-    .properties-list {
-        color: #f39;
-        list-style-type: none;
-        line-height: 32px;
-    }
+    /*   .properties-list {}*/
     
     .properties-list__item {
         padding: 8px;
         font-size: 24px;
+        color: #f39;
+        list-style-type: none;
+        line-height: 32px;
     }
