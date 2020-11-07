@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+
+/*.image-container {
+    margin: 50px auto;
+
+}*/
+
 .main-image {
     display: block;
     margin: 50px auto;
