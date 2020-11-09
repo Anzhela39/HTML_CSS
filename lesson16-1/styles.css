@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.form-control {
-    margin: 16px;
-}
-
-.choose-gender {
+div {
     margin: 16px;
 }
