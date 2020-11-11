@@ -12,16 +12,16 @@
 <body>
     <form>
         <div>
-            <input type="text" name="primaryLanguage" value="HTML." disabled>
+            <input type="text" name="primaryLanguage" value="HTML" disabled>
         </div>
         <div>
             <input type="checkbox" name="agree" unchecked>
         </div>
         <div>
-            <input type="checkbox" name="like" readonly>
+            <input type="checkbox" name="like" checked readonly>
         </div>
         <div>
-            <input type="color" name="favouriteColor" color="#ff7f50">
+            <input type="color" name="favouriteColor" value="#ff7f50">
         </div>
         <div>
             <input type="date" name="birthDate" value="2021-01-02">
@@ -42,14 +42,14 @@
             <input type="number" name="favouriteNumber " value="17">
         </div>
         <div>
-            <input type="textarea" name="story" max="5" maxlength="30" placeholder="A long time ago...">
+            <textarea name="story" cols="30" rows="10" placeholder="A long time ago..."></textarea>
         </div>
         <div>
             <input type="password" name="password" value="secret">
         </div>
         <div class="language">
             <input type="radio" name="language" value="html">HTML
-            <input type="radio" name="language" value="css">CSS
+            <input type="radio" name="language" value="css" checked>CSS
             <input type="radio" name="language" value="javascript">JavaScript
         </div>
         <div>
@@ -58,7 +58,7 @@
         <div>
             <select name="framework">
             <option value="react ">React</option>
-            <option value="jquery">jQuery</option>
+            <option value="jquery" selected>jQuery</option>
             <option value="bootstrap">Bootstrap</option>
             </select>
         </div>
@@ -66,7 +66,7 @@
             <input type="search" name="search" placeholder="Type first letters...">
         </div>
         <div>
-            <input type="time" name="lunchEnd " value="14:01">
+            <input type="time" min="00:01" max="00:60" am-pm name="lunchEnd " value="14:01">
         </div>
         <div>
             <input type="url" name="website" placeholder="https://website.com">
