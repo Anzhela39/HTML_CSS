@@ -14,14 +14,13 @@ table {
     margin: 16px;
 }
 
-tr>td,
-tr>th {
+tr {
     line-height: 40px;
+    padding: 4px;
 }
 
 td,
 th {
-    padding: 4px;
     text-align: right;
 }
 
