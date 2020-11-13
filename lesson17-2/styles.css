@@ -14,9 +14,7 @@ table {
     margin: 16px;
 }
 
-thead,
-tbody,
-tfoot {
+tr {
     line-height: 40px;
 }
 
