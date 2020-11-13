@@ -14,8 +14,8 @@ table {
     margin: 16px;
 }
 
-th,
-td {
+td,
+th {
     padding: 4px;
     text-align: right;
     line-height: 40px;
