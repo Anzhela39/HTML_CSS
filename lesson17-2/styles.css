@@ -15,13 +15,13 @@ table {
 }
 
 tr {
-    line-height: 40px;
-    padding: 4px;
+    height: 40px;
 }
 
 td,
 th {
     text-align: right;
+    padding: 4px;
 }
 
 div {
