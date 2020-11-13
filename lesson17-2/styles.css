@@ -14,12 +14,16 @@ table {
     margin: 16px;
 }
 
-thead>tr,
-tbody>tr,
-tfoot>tr {
+thead,
+tbody,
+tfoot {
+    line-height: 40px;
+}
+
+td,
+th {
     padding: 4px;
     text-align: right;
-    line-height: 40px;
 }
 
 div {
