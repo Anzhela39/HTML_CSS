@@ -14,8 +14,8 @@ table {
     margin: 16px;
 }
 
-thead,
-tbody,
+thead>tr,
+tbody>tr,
 tfoot>tr {
     padding: 4px;
     text-align: right;
