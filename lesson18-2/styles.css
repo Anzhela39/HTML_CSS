@@ -15,10 +15,15 @@
         font-weight: 700;
         border: none;
         cursor: pointer;
+        line-height: 50px;
     }
     
     .custom_button:hover {
         color: darkcyan;
+    }
+    
+    .custom_button:hover>.bird-icon {
+        fill: green;
     }
     
     .bird-icon {
@@ -26,8 +31,4 @@
         height: 32px;
         fill: white;
         vertical-align: middle;
-    }
-    
-    .bird-icon:hover {
-        fill: green;
     }
