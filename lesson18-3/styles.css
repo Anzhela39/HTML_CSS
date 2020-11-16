@@ -1,0 +1,29 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    div {
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+    
+    .fa-battery-full {
+        font-size: 1em;
+    }
+    
+    .fa-battery-three-quarters {
+        font-size: 2em;
+    }
+    
+    .fa-battery-half {
+        font-size: 4em;
+    }
+    
+    .fa-battery-quarter {
+        font-size: 8em;
+    }
+    
+    .fa-battery-empty {
+        font-size: 16em;
+    }
