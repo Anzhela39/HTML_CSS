@@ -1,0 +1,44 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: 32px;
+    }
+    
+    .rect {
+        margin: 16px;
+        background-color: coral;
+        opacity: 0.5;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: width 2s, opacity 0.5s;
+    }
+    
+    .rect:hover {
+        width: 100%;
+        opacity: 1;
+    }
+    
+    .rect:nth-child(2) {
+        transition-timing-function: linear;
+    }
+    
+    .rect:nth-child(3) {
+        transition-timing-function: ease;
+    }
+    
+    .rect:nth-child(4) {
+        transition-timing-function: ease-in;
+    }
+    
+    .rect:nth-child(5) {
+        transition-timing-function: ease-out;
+    }
+    
+    .rect:nth-child(6) {
+        transition-timing-function: ease-in-out;
+    }
