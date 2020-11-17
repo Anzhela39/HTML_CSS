@@ -23,22 +23,22 @@
         opacity: 1;
     }
     
-    .rect:nth-child(2) {
+    .rect:first-child {
         transition-timing-function: linear;
     }
     
-    .rect:nth-child(3) {
+    .rect:nth-child(2) {
         transition-timing-function: ease;
     }
     
-    .rect:nth-child(4) {
+    .rect:nth-child(3) {
         transition-timing-function: ease-in;
     }
     
-    .rect:nth-child(5) {
+    .rect:nth-child(4) {
         transition-timing-function: ease-out;
     }
     
-    .rect:nth-child(6) {
+    .rect:nth-child(5) {
         transition-timing-function: ease-in-out;
     }
