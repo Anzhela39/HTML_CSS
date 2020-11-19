@@ -18,7 +18,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     margin: auto;
-    z-index: 1;
 }
 
 .spinner {
@@ -45,24 +44,25 @@
     border: 4px solid lightgrey;
     border-top: 4px solid black;
     margin: auto auto 8px auto;
-    transform: rotate(45deg);
     animation: spin 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 2;
 }
 
 @keyframes spin {
     0% {
-        border-top: 4px solid black;
+        transform: rotate(0deg);
     }
     25% {
-        border-right: 4px solid black;
+        transform: rotate(90deg);
     }
     50% {
-        border-bottom: 4px solid black;
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
     }
     100% {
-        border-left: 4px solid black;
+        transform: rotate(360deg);
     }
 }
