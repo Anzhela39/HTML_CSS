@@ -14,7 +14,6 @@
 
 .spinner {
     margin: 0 auto;
-    padding: 0;
     border: none;
 }
 
@@ -26,6 +25,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     margin: auto;
+    z-index: 1;
 }
 
 @keyframes blinking {
@@ -51,6 +51,7 @@
     animation: spin 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 2;
 }
 
 @keyframes spin {
