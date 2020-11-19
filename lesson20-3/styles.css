@@ -17,6 +17,8 @@
     animation: blinking 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    margin: auto;
+    padding: 0;
 }
 
 @keyframes blinking {
@@ -39,6 +41,7 @@
     border: 4px solid lightgrey;
     border-top: 4px solid black;
     margin: auto auto 8px auto;
+    padding: 0%;
     animation: spin 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
