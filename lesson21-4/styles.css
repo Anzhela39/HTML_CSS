@@ -54,7 +54,7 @@
         width: 20%;
     }
     
-    .units-list {
+    .units-list>li {
         line-height: 1.75em;
     }
     
