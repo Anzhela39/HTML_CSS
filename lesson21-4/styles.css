@@ -35,16 +35,19 @@
         height: auto;
         flex-grow: 1;
         display: flex;
+        margin: 0;
     }
     
     .navigation {
         width: 20%;
+        padding: 0.5em;
     }
     
     .section {
         width: 60%;
         font-size: 1.25em;
         line-height: 1.75em;
+        padding: 0.5em;
     }
     
     .news {
@@ -55,7 +58,7 @@
     .css-units {
         color: #8b0000;
         background-color: #e5e5e5;
-        font-size: 1.125rem;
+        font-size: 1.125em;
         font-weight: 700;
     }
     
@@ -65,14 +68,12 @@
     }
     
     .nav-list {
-        padding: 0 0.5em;
+        padding: 0;
         list-style-type: none;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
     }
     
     .nav-list-link {
+        padding: 0 0.5em;
         color: #ffffff;
         text-decoration: none;
     }
@@ -83,4 +84,7 @@
         color: #ffffff;
         line-height: 2em;
         margin-bottom: 0.5em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
