@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.main {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.navigation,
+.section,
+.news {
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.news {
+    width: 20%;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list-item {
+    display: flex;
+    background-color: #808080;
+    color: white;
+    margin-bottom: 0.5em;
+    line-height: 2em;
+    padding: 0 0.5em;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+picture {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.25em;
+}
+
+@media screen and (max-width: 599px) {
+    .navigate-and-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation {
+        width: 100vw;
+    }
+    .section {
+        width: 100vw;
+    }
+    .news {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .navigate-and-section {
+        display: flex;
+    }
+    .section {
+        width: 100vw;
+    }
+    .news {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .navigate-and-section {
+        display: flex;
+    }
+    .navigation {
+        width: 20vw;
+    }
+    .section {
+        width: 60vw;
+    }
+    .news {
+        width: 20vw;
+    }
+}
