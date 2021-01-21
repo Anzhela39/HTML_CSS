@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <style>
+        main {
+            display: flex;
+        }
+        
+        picture {
+            margin: auto;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <picture>
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-600.jpg" media="(min-width: 400px)">
+            <source>
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-399.jpg">
+            <source>
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-600.jpg" alt="Three on the land">
+        </picture>
+
+    </main>
+</body>
+
+</html>
