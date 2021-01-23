@@ -17,8 +17,8 @@
   padding: 0 8px;
   line-height: 3em;
 }
-.menu_active {
-  color: yellow;
+.menu .menu__item_active {
+  color: #ffff00;
 }
 .menu:hover {
   background-color: #9acd32;

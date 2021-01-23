@@ -16,8 +16,8 @@
             padding: 0 8px;
             line-height: 3em;
         }
-        &_active {
-            color: yellow;
+        .menu__item_active {
+            color: #ffff00;
         }
         &:hover {
             background-color: #9acd32;
