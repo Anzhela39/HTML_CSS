@@ -1,0 +1,50 @@
+    @import 'layout.scss';
+    * {
+        box-sizing: border-box;
+    }
+    
+    @include for-small {
+        .products {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        @include for-midle {
+            flex-direction: row;
+            .list {
+                width: 33.33333333vw;
+            }
+        }
+    }
+    
+    .list {
+        display: flex;
+        min-height: 200px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    span {
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #faebd7;
+        border-radius: 4px;
+        padding: 4px;
+    }
+    
+    .navigation {
+        background-color: #ff7f50;
+    }
+    
+    .products {
+        background-color: #006400;
+    }
+    
+    .news {
+        background-color: #0ff;
+    }

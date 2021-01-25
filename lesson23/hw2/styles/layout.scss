@@ -1,0 +1,13 @@
+$sm: 600px;
+$md: 900px;
+@mixin for-small {
+    @media screen and (min-width: $sm) {
+        @content;
+    }
+}
+
+@mixin for-midle {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
